@@ -26,7 +26,7 @@ function guessGame(maxNumber) {
       } else {
         console.log(" Sorry That's Incorrect");
         console.log(`The random number is ${num}`);
-        console.log("\nGame over...\n\nClosing game...\n");
+        console.log("\nGame over...\n\nGame closing...\n");
         correctNumber = false;
       }
     } while (correctNumber);
